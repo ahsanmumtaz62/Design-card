@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+body{
+    font-family: system-ui;
+    font-weight: 400;
+    line-height: 1.2;
+}
+.central{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.main{
+    width: 20rem;
+    height: 30rem;
+    background-color: rgb(247, 235, 235);
+    align-items: center;
+    text-align: center;
+
+}
+.rateContainer{
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+width: 10rem;
+height: 10rem;
+background-color: rgb(235, 99, 21);
+border-radius: 50%;
+margin:0 auto;
+
+}
+.rates{
+    text-align: center;
+    color: aliceblue;
+    width: 8rem;
+    height: 8rem;
+    overflow: hidden;
+    
+}
+.text{
+    display: flex;
+    
+    margin-bottom: 1rem;
+    color: rgb(116, 116, 116);
+    font-size: 1.2rem;
+}
+.viewButton{
+    cursor: pointer;
+    background-color:rgb(235, 99, 21); 
+    color: aliceblue;
+    border-radius: 1rem;
+    border: none;
+    padding: 1rem 1rem;
+}
+.myMain{ width: 20rem;
+    height: 30rem;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(235, 99, 21);
+}
+.headingContent{
+    color:rgb(235, 99, 21);
+}
+.myRateContainer{
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+width: 10rem;
+height: 10rem;
+background-color:aliceblue;
+border-radius: 50%;
+margin:0 auto;
+}
+.myText{
+    text-align: center;
+    margin-bottom: 1rem;
+    color: aliceblue;
+    font-size: 1.2rem;
+}
+.myViewButton{
+    cursor: pointer;
+    color:rgb(235, 99, 21); 
+    background-color: aliceblue;
+    border-radius: 1rem;
+    border: none;
+    padding: 1rem 1rem;
+}
